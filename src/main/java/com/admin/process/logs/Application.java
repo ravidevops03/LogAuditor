@@ -42,7 +42,7 @@ public class Application {
 			}		
 				
 			LogProcessingHelper.identifyAlertCriteria(holder);
-			logger.info(" Below are the logs ");
+			logger.info(" Below are the logs count which tells their counter parts are missing in file ");
 			logger.info("size of start log =>  " + holder.getStartMap().toString());
 			logger.info("size of finish log =>  " + holder.getFinishMap().toString());
 	    }else {
