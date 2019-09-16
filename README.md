@@ -26,16 +26,6 @@ Hence the log that is orphan(like start missing its finish vice versa), is still
 4. There can still be lot of junit test cases written. In the interest of time, I wrote only few.
 # Run instructions:
 <b>There are couple of ways you can run this project.</b><br><br>
-==========================<b> Run as main class from Eclipse </b>========================<br>
-1. Open LogAuditor project in eclipse and refresh it using F5.<br>
-2. Right click on Java file com.admin.process.logs.Application.java -> Run as -> Java Application. <br>
-3. The console will ask for Enter the File location and press ENTER button : <Enter File Location> <br>
-4. press enter. <br>
-5. If the File format is provided as per requirement, it will Scan each line from the log file and checks if it's a starter or finisher log .<br>  
-6. It identifies the alert criteria & inserts into database and show the output on the console.<br>
-
-===========================================================================<br>
-
 ==========================<b> Run from executable jar </b>================================
 1. Ensure that you have a .jar file in the folder  LogAuditor\build\libs\LogAuditor-all.jar <br>
 2. Goto command prompt enter c:\users>Path to service project\LogAuditor> java -jar .\build\libs\LogAuditor-all.jar<br>
@@ -57,6 +47,16 @@ Hence the log that is orphan(like start missing its finish vice versa), is still
 7. It identifies the alert criteria & inserts into database and show the output on the console.<br>
 
 ==========================================================================<br>
+
+==========================<b> Run as main class from Eclipse </b>========================<br>
+1. Open LogAuditor project in eclipse and refresh it using F5.<br>
+2. Right click on Java file com.admin.process.logs.Application.java -> Run as -> Java Application. <br>
+3. The console will ask for Enter the File location and press ENTER button : <Enter File Location> <br>
+4. press enter. <br>
+5. If the File format is provided as per requirement, it will Scan each line from the log file and checks if it's a starter or finisher log .<br>  
+6. It identifies the alert criteria & inserts into database and show the output on the console.<br>
+
+===========================================================================<br>
 
 ==========================<b> Running Junit Test cases </b>================================
 1. In the eclipse, go to the java class LogAuditorTestAll.java<br>
