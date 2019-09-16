@@ -7,14 +7,6 @@ Eclipse - Enterprise Java Developers Oxygen Release (4.12.0) <br>
 Java    - 1.8 <br>
 Gradle  - 5.6.2 <br>
 
-# Pre-run steps
-<b>Information before running the project</b>
-1. Goto command prompt enter c:\users>Path to service project>\LogAuditor <br>
-2. press enter.<br>
-3. gradle clean <br>
-4. press enter. It Will clean the project. <br>
-5. gradle customFatJar <br>
-6. press enter. It Will generate the custom Jar file which will have all dependencies which have been added in build.gradle.<br>
 # Assumptions 
   1. I Assumed that only one log file is copied into the folder everytime. The application just picks a file from the path and doesnt delete the file.
 
@@ -24,6 +16,16 @@ Hence the log that is orphan(like start missing its finish vice versa), is still
 3. Although there was a problem creating a file of larger memory, this program has been tested for the file of size 200Mb.
 
 4. There can still be lot of junit test cases written. In the interest of time, I wrote only few.
+
+# Pre-run steps
+<b>Information before running the project</b>
+1. Goto command prompt enter c:\users>Path to service project>\LogAuditor <br>
+2. press enter.<br>
+3. gradle clean <br>
+4. press enter. It Will clean the project. <br>
+5. gradle customFatJar <br>
+6. press enter. It Will generate the custom Jar file which will have all dependencies which have been added in build.gradle.<br>
+
 # Run instructions:
 <b>There are couple of ways you can run this project.</b><br><br>
 ==========================<b> Run from executable jar </b>================================
