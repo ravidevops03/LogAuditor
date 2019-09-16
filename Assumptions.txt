@@ -1,0 +1,12 @@
+========== Assumptions =====================
+
+1. I Assumed that only one log file is copied into the folder everytime. The application just picks a file from the path and doesnt delete the file.
+
+2. If the file has a mismatch of start and finish logs count which means their counter parts are missing and may be available in the next file. 
+Hence the log that is orphan(like start missing its finish vice versa), is still retained in a Map in the program.
+
+3. Although there was a problem creating a file of larger memory, this program has been tested for the file of size 200Mb.
+
+4. There can still be lot of junit test cases written. In the interest of time, I wrote only few.
+
+
